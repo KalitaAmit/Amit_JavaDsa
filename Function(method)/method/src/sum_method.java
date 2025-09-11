@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class sum_method {
     public static void main(String[] args) {
         sum();
-        sum();
+
     }
     //  syntax of simple function
     /*
@@ -14,9 +14,7 @@ public class sum_method {
 
     static void sum() {
 
-        //  this method is static because we are calling this on psvm which is static.
-
-
+        //  this method is static because we are calling this on public static void main(String[] args) which is static.
 
         Scanner in = new Scanner(System.in);
         int num1, num2, sum;
